@@ -5,3 +5,6 @@ def index(request):
 
 def login(request):
 	return HttpResponse("yes")
+
+def register(request):
+	return HttpResponse("yes")
